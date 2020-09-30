@@ -1,2 +1,6 @@
-# ALGO_NOTE
-Note For Algorithm 2020
+# ALGO_NOTE :book:
+
+:star: 나와의 규칙
+1. 알고리즘은 매일 매일 공부한다
+2. 공부한 내용을 md로 정리한다
+3. 커밋은 `날짜_제목`으로 한다
