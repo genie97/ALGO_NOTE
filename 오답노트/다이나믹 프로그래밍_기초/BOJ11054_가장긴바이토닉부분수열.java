@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 // 오른쪽에서 왼쪽으로 한번 적용
 // 각 위치까지의 가장 긴 증가하는 길이와 감소하는 길이 정보를 모두 얻음
 // 그리고 두배열을 합친 후, 가장 큰 값을 가져온다
-// 자기자신을 포함하기때문에 -1
+// 자기자신을 포함하기 때문에 -1
 
 public class BOJ11054_가장긴바이토닉부분수열 {
 	public static void main(String[] args) throws IOException {
