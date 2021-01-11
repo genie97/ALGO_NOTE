@@ -1,11 +1,11 @@
+// 특정 숫자를 한 번 삭제할 수도 있고, 아닐 수도 있다
+// dp[i][j]: arr[1]~arr[i]까지의 합
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
-
-// 특정 숫자를 한 번 삭제할 수도 있고, 아닐 수도 있다
-// dp[i][j]: arr[1]~arr[i]까지의 합
 
 public class BOJ1912_연속합2 {
 	public static void main(String[] args) throws IOException {
