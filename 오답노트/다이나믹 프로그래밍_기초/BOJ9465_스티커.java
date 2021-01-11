@@ -1,8 +1,3 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
-
 //스티커 2n개를 구매
 //2행 n열로 배치
 //스티커 한장을 떼면 변을 공유하는 스티커는 모두 찢어져서 사용 불가 (왼쪽 오른쪽 위 아래 사용 불가)
@@ -13,6 +8,11 @@ import java.util.StringTokenizer;
 // 100 1 1
 // 1   1 100
 // 이 경우에는 100 + 100 = 200이 가장 큼
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 public class BOJ9465_스티커 {
 	public static void main(String[] args) throws IOException {
