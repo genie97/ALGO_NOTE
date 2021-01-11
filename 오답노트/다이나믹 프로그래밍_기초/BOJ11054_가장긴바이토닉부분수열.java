@@ -2,15 +2,15 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.StringTokenizer;
-
 // 특정 수 까지 증가하고 그 이후부터는 감소
 // 가장 긴 부분 수열을 왼쪽에서 오른쪽으로 한번,
 // 오른쪽에서 왼쪽으로 한번 적용
 // 각 위치까지의 가장 긴 증가하는 길이와 감소하는 길이 정보를 모두 얻음
 // 그리고 두배열을 합친 후, 가장 큰 값을 가져온다
 // 자기자신을 포함하기 때문에 -1
+
+import java.util.Arrays;
+import java.util.StringTokenizer;
 
 public class BOJ11054_가장긴바이토닉부분수열 {
 	public static void main(String[] args) throws IOException {
